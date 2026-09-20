@@ -81,6 +81,17 @@ git submodule update --init --recursive
 
 Submodule `vendor/engineering-control` считается read-only. Любое обновление tag/SHA выполняется отдельным Pull Request после compatibility checks.
 
+## Межрепозиторные уведомления
+
+Пока pin остаётся `v1.0.0-rc.1`, ASE не вызывает reusable workflows из `engineering-control`. Локальный `validate-ase.yml` остаётся обязательной проверкой.
+
+Ручные события:
+
+- `listen-pde-ready.yml` — Issue о готовности Pack со стороны PDE;
+- `notify-qsre-evidence.yml` — Issue в QSRE о готовности evidence.
+
+Оба workflow запускаются только через `workflow_dispatch`. Они не принимают ACK, не меняют Pack и не объединяют Pull Request. Для `notify-qsre-evidence` нужны секреты GitHub App в Environment `notify-qsre`.
+
 ## Дополнительные инструменты
 
 OpenSpace, Unleash, OpenTelemetry и Grafana выключены. Их наличие в `config/features.yaml` не означает установку. Включение выполняется отдельным изменением после назначения владельца, настройки подключения и проверки безопасности.

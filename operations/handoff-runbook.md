@@ -28,3 +28,5 @@
 5. Выполнить contract validation.
 6. Передать QSRE и дождаться ACK.
 
+После ручной проверки цепочки можно запустить workflow `notify-qsre-evidence`. Он создаёт Issue в QSRE и не объединяет Pull Request.
+

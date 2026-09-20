@@ -14,6 +14,7 @@ $requiredPaths = @(
     'workspaces/README.md', 'workspaces/projects/README.md',
     'scripts/doctor.ps1', 'scripts/validate-repository.ps1', 'scripts/validate-handoffs.ps1',
     '.github/CODEOWNERS', '.github/pull_request_template.md', '.github/workflows/validate-ase.yml',
+    '.github/workflows/notify-qsre-evidence.yml', '.github/workflows/listen-pde-ready.yml',
     '.agents/skills/ase-accept-handoff/SKILL.md',
     '.agents/skills/ase-plan-implementation/SKILL.md',
     '.agents/skills/ase-build-evidence/SKILL.md',

@@ -16,7 +16,7 @@
 - `.agents/skills/` — четыре начальных ASE skills.
 - `.cursor/rules/` — ограничения работы агентов.
 - `.codex/config.toml` — подготовленный и выключенный OpenSpace local MCP.
-- `.github/` — CODEOWNERS, PR template и CI.
+- `.github/` — CODEOWNERS, PR template, локальный CI, уведомление QSRE и приём PDE Ready.
 - `workspaces/projects/` — delivery records конкретной работы.
 - `vendor/engineering-control/` — read-only submodule общей основы.
 
