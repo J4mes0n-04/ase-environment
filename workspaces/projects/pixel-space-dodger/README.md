@@ -12,5 +12,5 @@ Outcome `OUT-PSD-001`. Текущий baseline Pack `1.1.0` (`DC-002`).
 `C:\Users\maksim\Documents\ChatGPT\PDE(home)\pixel-space-dodger`
 
 - Запуск: `start-game.cmd`
-- Implementation SHA: `fbfb06ead2b0cc6456a85356a2f2c12a56f5098e`
+- Implementation SHA: `e85e7f00ae46653513c0dee4d4cb8e22bdc11f0d`
 - Pack SHA: `023be4aedeea48340a20728f1d504a3d9e3ac628`

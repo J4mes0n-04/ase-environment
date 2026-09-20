@@ -1,7 +1,7 @@
 # Карта доказательств ASE — DEL-PSD-002
 
 Outcome: `OUT-PSD-001` · Pack `1.1.0` · SHA `023be4aedeea48340a20728f1d504a3d9e3ac628`
-Implementation: `fbfb06ead2b0cc6456a85356a2f2c12a56f5098e`
+Implementation: `e85e7f00ae46653513c0dee4d4cb8e22bdc11f0d`
 
 | Requirement ID | Результат | Примечание |
 | --- | --- | --- |
