@@ -1,0 +1,11 @@
+---
+description: Проверка handoff и ACK
+globs: ["workspaces/projects/**/deliveries/**"]
+alwaysApply: false
+---
+
+- Сначала проверь вход по pinned Schema v1.0.0.
+- При блокирующем вопросе используй `needs-clarification` и не начинай реализацию.
+- Не изменяй входной handoff для удобства реализации.
+- Выходной handoff обязан покрывать каждый AC/NFR.
+

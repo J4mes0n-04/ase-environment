@@ -1,0 +1,26 @@
+name: Validate ASE environment
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ase:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Run doctor
+        shell: pwsh
+        run: ./scripts/doctor.ps1
+      - name: Validate repository and handoff contracts
+        shell: pwsh
+        run: ./scripts/validate-repository.ps1
+

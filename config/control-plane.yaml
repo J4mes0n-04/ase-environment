@@ -1,0 +1,21 @@
+schema_version: 1
+mode: shadow
+environment: ase
+environment_version: 0.1.0-shadow
+control:
+  repository: https://github.com/J4mes0n-04/engineering-control.git
+  tag: v1.0.0-rc.1
+  commit: abd0982171341438cab80267099b951a2027be0b
+  path: vendor/engineering-control
+  status: staging
+  authoritative: false
+contracts:
+  consumes:
+    pde_to_ase: 1.0.0
+  produces:
+    ase_to_qsre: 1.0.0
+constraints:
+  allow_floating_main: false
+  allow_vendor_modification: false
+  allow_automatic_control_update: false
+

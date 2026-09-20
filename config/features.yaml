@@ -1,0 +1,46 @@
+schema_version: 1
+environment_version: 0.1.0-shadow
+features:
+  github:
+    enabled: true
+    required: true
+  github_actions:
+    enabled: true
+    required: true
+  product_repository_adapter:
+    enabled: true
+    required: true
+    mode: reference-only
+  pde_adapter:
+    enabled: true
+    required: true
+    mode: contract-v1
+  qsre_adapter:
+    enabled: true
+    required: true
+    mode: contract-v1
+  cursor:
+    enabled: true
+    required: false
+  codex:
+    enabled: true
+    required: false
+  openspace_local:
+    enabled: false
+    required: false
+    cloud_mode: off
+  unleash:
+    enabled: false
+    required: false
+  opentelemetry:
+    enabled: false
+    required: false
+  grafana:
+    enabled: false
+    required: false
+constraints:
+  allow_product_code_in_ase_repository: false
+  allow_pack_semantic_changes: false
+  allow_openspace_cloud: false
+  allow_direct_push_to_main: false
+

@@ -1,0 +1,15 @@
+.env
+*.local.env
+*.secret.*
+.openspace/
+*.skill_id
+artifacts/
+reports/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.log
+

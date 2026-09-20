@@ -1,0 +1,12 @@
+---
+description: Основные границы ASE
+alwaysApply: true
+---
+
+- Работай только по валидному PDE → ASE handoff и закреплённому Pack SHA.
+- Не меняй смысл Outcome, scope, AC/NFR, risk или autonomy.
+- Код продукта изменяй в продуктовом репозитории, не в ASE environment.
+- Связывай каждый AC/NFR с test и evidence.
+- До передачи в QSRE укажи implementation SHA, release и rollback.
+- Пиши человекочитаемые документы на русском языке.
+

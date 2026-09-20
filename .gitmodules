@@ -1,0 +1,3 @@
+[submodule "vendor/engineering-control"]
+	path = vendor/engineering-control
+	url = https://github.com/J4mes0n-04/engineering-control.git
